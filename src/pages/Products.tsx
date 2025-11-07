@@ -8,21 +8,21 @@ import farmFacilityImage from "@/assets/farm-facility.jpg";
 
 const Products = () => {
   const seedlingProducts = [
-    { name: "Tomato Seedlings", price: "$2.50", description: "Cherry, Roma, and Beefsteak varieties" },
-    { name: "Pepper Seedlings", price: "$3.00", description: "Bell peppers, jalapeños, and sweet peppers" },
-    { name: "Lettuce Seedlings", price: "$1.50", description: "Romaine, iceberg, and mixed greens" },
-    { name: "Herb Seedlings", price: "$2.00", description: "Basil, cilantro, parsley, and oregano" },
-    { name: "Cucumber Seedlings", price: "$2.25", description: "Pickling and slicing varieties" },
-    { name: "Squash Seedlings", price: "$2.75", description: "Zucchini, yellow squash, and butternut" },
+    { name: "Tomato Seedlings", price: "5 ksh", description: "Cherry, Roma, and Beefsteak varieties",},
+    { name: "Pepper Seedlings", price: "10 ksh", description: "Bell peppers, jalapeños, and sweet peppers" },
+    { name: "Lettuce Seedlings", price: "20 ksh", description: "Romaine, iceberg, and mixed greens" },
+    { name: "Herb Seedlings", price: "15 ksh", description: "Basil, cilantro, parsley, and oregano" },
+    { name: "Cucumber Seedlings", price: "10 ksh", description: "Pickling and slicing varieties" },
+    { name: "Squash Seedlings", price: "25 ksh", description: "Zucchini, yellow squash, and butternut" },
   ];
 
   const vegetableProducts = [
-    { name: "Organic Tomatoes", price: "$4.50/lb", description: "Vine-ripened, pesticide-free tomatoes" },
-    { name: "Fresh Lettuce Mix", price: "$3.25/bunch", description: "Crisp, garden-fresh lettuce varieties" },
-    { name: "Bell Peppers", price: "$5.00/lb", description: "Colorful, sweet bell peppers" },
-    { name: "Fresh Herbs", price: "$2.50/bunch", description: "Aromatic herbs picked daily" },
-    { name: "Seasonal Squash", price: "$3.75/lb", description: "Fresh seasonal squash varieties" },
-    { name: "Root Vegetables", price: "$4.00/lb", description: "Carrots, beets, and radishes" },
+    { name: "Organic Tomatoes", price: "10 ksh per tomato", description: "Vine-ripened, pesticide-free tomatoes" },
+    { name: "Fresh Lettuce Mix", price: "20 ksh/bunch", description: "Crisp, garden-fresh lettuce varieties" },
+    { name: "Fresh Kales", price: "20 ksh/bunch", description: "Aromatic herbs picked daily" },
+    { name: "Cucumbers", price: "15 ksh each", description: "Cool and refreshing cucumbers" },
+    { name: "Onions", price: "85 ksh per kg", description: "Colorful and fresh organic onions" },
+    { name: "Carrots", price: "50 ksh per kg", description: "Sweet and crunchy farm-fresh carrots" },
   ];
 
   return (
